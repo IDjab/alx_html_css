@@ -45,13 +45,20 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.logo {
+    font-size: 36px; 
+    color: #ffcc00; 
+    margin-right: 20px; 
+    display: inline-block;
+    vertical-align: middle;
+}
 @media (max-width: 768px) {
     main {
-        flex-direction: column; /* Stack the article and aside vertically */
+        flex-direction: column; 
     }
 
     article, aside {
-        flex: 1; /* Both sections take equal space when stacked */
+        flex: 1; 
         overflow-y: auto;
     }
 }
