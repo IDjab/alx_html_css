@@ -34,3 +34,13 @@ header, footer {
 footer {
     margin-top: auto; 
 }
+    @media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    article, aside {
+        flex: 1; 
+        overflow-y: auto;
+    }
+}
